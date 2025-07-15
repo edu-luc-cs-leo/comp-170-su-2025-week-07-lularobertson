@@ -1,0 +1,22 @@
+load_to_list:
+Our code was a lot different. Your code used a loop and then .append to add
+the data to the list, where my code converted every line into float unless they
+were empty with the .strip() operator and then printed the temperatures. When I ran
+the code it looked like how it should, so I would say it worked. Maybe a little
+complicated though.
+
+descriptive_statistics:
+For this function I used the same code to filter all the lines of data into floats
+and assigned the data to the variable "temps". Then I used sum, max, and min
+functions to do the calculations for me to find the average, max, and min values.
+Then ended my code with a print statement for all of the information. My code deviates
+from yours since your code uses a loop to check each data point for the min and max.
+
+apply_markup:
+Our code is more similar here, I think. I initially used .strip() to ensure the data was
+free of extraneous characters so I didn't have to check isalpha(). But I think numbers
+would be able to slip through in my code. Then in my formatted lines I used the .append
+to put the words together again and .join to add spaces instead of "+".
+
+Overall, my code worked with the files provided. There are somethings I could clean up such as the isalpha instead of .strip() since it would filter out numbers if there were any. Another thing is I found the .strip() function on the internet, but maybe should have used techniques we learned in class instead.
+I am working on using more type-hints and comments so it's easier for me to understand when reviewing my work, and there are not any of the problems like multiple return statements or breaks or anything so thats good.
